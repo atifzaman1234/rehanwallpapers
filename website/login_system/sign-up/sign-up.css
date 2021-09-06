@@ -1,0 +1,77 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-btn {
+  margin-left: 4px;
+  height: 4.5vh;
+  width: 5vw;
+  font-family: 'Noto Sans', sans-serif;
+  cursor: pointer;
+
+  padding: 0.5vh;
+
+  background: #F87272;
+  color: white;
+  border: none;
+  border-radius: 9px
+}
+
+.container {
+  background: #F1F1F1;
+  height: 49vh;
+  width: 30vw;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.header-for-form {
+  color: #F87272;
+  font-size: 1.8em;
+  margin: 7px 0 3vh 7px
+}
+
+main {
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 49px;
+  margin-left: 119px
+}
+
+.input {
+  padding: 0.4em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+form {
+  text-align: center;
+}
+
+span,input {
+  margin: 0.5vw
+}
+
+.sign-up-link, .error {
+  align-self: center;
+  justify-content: flex-end;
+}
+
+.error {
+  margin-bottom: 8px
+}
+
+.text {
+  color: #F87272
+}
+
+.container span a {
+  color: #F87272
+}
